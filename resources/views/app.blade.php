@@ -19,7 +19,7 @@
 </head>
 <body>
    <nav class="navbar navbar-expand-lg navbar-light bg-primary  ">
-      <a class="navbar-brand" href="{{route('home')}}"><i class="fa-solid fa-envelope m-2"></i><strong>SendMail-App</strong></a>
+      <a class="navbar-brand" href="{{route('home')}}"><i class="fa-solid fa-envelope m-2"></i><strong>Team-Communication-App</strong></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -32,9 +32,9 @@
                     Envoi Email
                   </a>
                   <div class="dropdown-menu bg-primary" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="{{route('homegroupe')}} ">Envoi de  Email groupé</a>
+                    <a class="dropdown-item" href="{{route('homegroupe')}} ">Envoi d'email groupé</a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="{{route('home')}}">Envoi de Email individuel</a>
+                    <a class="dropdown-item" href="{{route('home')}}">Envoi d'email individuel</a>
                     
                    
                   </div>
@@ -61,7 +61,7 @@
       @yield('content')
      
       <div class="text-center pt-3 mt-3 bg-primary";">
-            © 2022 Copyright:
+            © 2024 Copyright:
             <a class="text-dark" href="#">Defarsci.com</a>
           </div>
 

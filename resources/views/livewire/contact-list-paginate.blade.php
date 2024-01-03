@@ -71,10 +71,10 @@
           <thead class="thead thead-info">
             <tr>
               <th scope="col">#</th>
-              <th scope="col">first Name</th>
-              <th scope="col">last Name</th>
+              <th scope="col">Nom</th>
+              <th scope="col">Prenom</th>
               <th scope="col">email</th>
-              <th scope="col">Phone</th>
+              <th scope="col">Numero</th>
               {{-- <th scope="col">Action</th> --}}
               
             </tr>
@@ -92,10 +92,10 @@
                </a>
               </td> 
               {{-- <td>{{$cont->id}}</td> --}}
-              <td>{{$cont->firstName}}</td>
-              <td>{{$cont->lastName}}</td>
+              <td>{{$cont->Nom}}</td>
+              <td>{{$cont->Prenom}}</td>
               <td>{{$cont->email}}</td>
-              <td>{{$cont->phone}}</td>
+              <td>{{$cont->numero}}</td>
               {{-- <td>
                 <div class="btn-group ">
                   <button class="btn btn-danger btn-sm " wire:click="deleteContact({{$cont->id}})">Delete</button>

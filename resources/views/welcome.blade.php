@@ -11,8 +11,6 @@
         <div class="col-md-2">
            
         </div>
-        
-
         <div class="col-md-8  text-ligth pb-5">
             <h2 class="fw-bold">Envoi d'email individuel</h2>
             <div class="p-4 border-2 border border-secondary rounded-5">

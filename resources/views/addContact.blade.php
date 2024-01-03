@@ -79,24 +79,7 @@
             </form>
         </div>
         </div>
-        <div class="row justify-content-center" >
-            <div class="col-md-7 mt-3">
-                <h3>Importer Contact à partir d'un fichier excel </h3>
-                <div class="p-4 border border-secondary rounded-5">
-                   
-                    <form action="" method="post" class="" enctype="multipart/form-data">
-                        <label for="">Choisir fichier </label>
-                        <input type="file" name="file" class="form-control">
-                        <div class="mt-3">
-                            <button class="btn btn-primary">Ajouter</button>
-                        </div>
-                        
-                    </form>
-                </div>
-            </div>
-            
-           
-        </div>
+       
     </div>
 </div>
 
